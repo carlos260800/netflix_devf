@@ -5,6 +5,8 @@ import RenderBackrounds from "./fragmentos/RenderBackgrounds";
 export const invocarCarrusel = () => {
   const URL = "https://api.themoviedb.org/3";
   const API_KEY = "645b80c6ed1f2faa01ee6673ad486783";
+  const IMG_BACKGROUND = "https://www.themoviedb.org/t/p/original";
+  let movies_array = [];
 
   useEffect(() => {
     axios

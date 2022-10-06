@@ -1,8 +1,7 @@
 import axios from "axios";
-import { useEffect } from "react";
 import RenderMovies from "../../Home/Funciones/fragmentos/RenderMovies";
 
-export const botonBuscar = () => {
+export const BotonBuscar = () => {
   const URL = "https://api.themoviedb.org/3";
   const API_KEY = "645b80c6ed1f2faa01ee6673ad486783";
   let movies_array = [];

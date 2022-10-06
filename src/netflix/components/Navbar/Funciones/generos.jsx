@@ -7,7 +7,7 @@ const API_KEY = "645b80c6ed1f2faa01ee6673ad486783";
 
 let movies_array = [];
 
-export const generos = () => {
+export const Generos = () => {
   axios.get(`${URL}/movie/popular?api_key=${API_KEY}`).then((data) => {
     movies_array = data.data.results;
   });

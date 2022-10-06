@@ -1,14 +1,8 @@
 import React from "react";
-import RenderMovies from "../Home/Funciones/fragmentos/RenderMovies";
-import { botonBuscar } from "./Funciones/botonBuscar";
-import { generos } from "./Funciones/generos";
+import { BotonBuscar } from "./Funciones/botonBuscar";
+import { Generos } from "./Funciones/generos";
 
-const URL = "https://api.themoviedb.org/3";
-const API_KEY = "645b80c6ed1f2faa01ee6673ad486783";
-const IMG_PREFIX = "https://www.themoviedb.org/t/p/w220_and_h330_face/";
-let movies_array = [];
-
-generos();
+Generos();
 
 export const Barra = () => {
   return (
@@ -70,7 +64,7 @@ export const Barra = () => {
                 id="busqueda"
               />
               <button
-                onClick={botonBuscar}
+                onClick={BotonBuscar}
                 class="btn btn-dark my-2 my-sm-0"
                 type="submit"
               >
