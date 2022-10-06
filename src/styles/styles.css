@@ -1,0 +1,85 @@
+/* * {
+  box-sizing: border-box;
+  outline: 1px solid lightgreen;
+} */
+
+/* .contador {
+  display: flex;
+} */
+
+/* Globales */
+body {
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: antiquewhite;
+  font-family: "Bungee Spice", cursive;
+  font-family: "Nunito Sans", sans-serif;
+}
+select {
+  padding: 5px;
+  color: #000;
+  border: none;
+  background: transparent;
+  -webkit-appearance: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e50914;
+}
+
+.navbar a {
+  color: black;
+}
+
+.logo {
+  padding: 0.8rem;
+  background-color: black;
+  border-radius: 0.5rem;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 3rem;
+}
+
+/* Principal */
+.poster img {
+  border-radius: 1rem;
+}
+
+.poster:hover {
+  cursor: pointer;
+  /* filter: blur(1px); */
+  filter: opacity(0.7);
+  /* -webkit-transform:scale(0.9);transform:scale(0.9); */
+  /* overflow: hidden; */
+}
+
+.titulo-peliculas {
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  color: aliceblue;
+  text-align: center;
+}
+
+.carrusel {
+}
+
+/* Footer */
+.footer {
+  align-items: center;
+  background-color: #e50914;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-top: 2.5rem;
+}
